@@ -1,0 +1,42 @@
+    1  git init cs131
+    2  cd cs131
+    3  ls -a
+    4  cd worksheet1
+    5  cd Worksheet1
+    6  ls -a
+    7  history > cmds.log
+    8  wget www.github.com
+    9  history > cmds.log
+   10  ls -a
+   11  git status
+   12  cd ..
+   13  git add -a
+   14  git add --all
+   15  del cs131
+   16  rm cs131
+   17  rm -rd cs131
+   18  pwd
+   19  ls -a
+   20  rm -all
+   21  rm cmds.log
+   22  rm -rd Worksheet1
+   23  ls -a
+   24  rm index.html
+   25  pwd
+   26  git clone https://github.com/nghiapham1026/cs131.git
+   27  mkdir Worksheet1
+   28  pwd
+   29  ls -a
+   30  rm -rf Worksheet1
+   31  cd cs131
+   32  mkdir Worksheet1
+   33  git status
+   34  wget www.github.com
+   35  git status
+   36  wget www.github.com
+   37  git status
+   38  git add -all
+   39  git add --all
+   40  git commit -m "Initial commit"
+   41  git push origin main
+   42  history > cmds.log
