@@ -92,3 +92,14 @@
    92  wc -w US_Music_YouTubers.csv >> counts.txt
    93  vi counts.txt
    94  history > cmds.log
+   95  git add .
+   96  git commit -m "Added Worksheet2"
+   97  git push origin master
+   98  git push origin main
+   99  git diff
+  100  git add .
+  101  git commit -m "Added Worksheet2"
+  102  git push origin main
+  103  git pull origin main
+  104  git push origin main
+  105  history > cmds.log
