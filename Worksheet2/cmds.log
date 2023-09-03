@@ -1,0 +1,94 @@
+    1  git init cs131
+    2  cd cs131
+    3  ls -a
+    4  cd worksheet1
+    5  cd Worksheet1
+    6  ls -a
+    7  history > cmds.log
+    8  wget www.github.com
+    9  history > cmds.log
+   10  ls -a
+   11  git status
+   12  cd ..
+   13  git add -a
+   14  git add --all
+   15  cd ~/Desktop
+   16  git init
+   17  git init cs131
+   18  mkdir Worksheet1
+   19  history cmds log > ~/.bash_history
+   20  history > cmds.log
+   21  git commit -m "Worksheet1"
+   22  git config --global user.email "nghiapham102603@gmail.com"
+   23  git config --global user.name "nghiapham1026"
+   24  git commit -m "Worksheet 1"
+   25  git add
+   26  git status
+   27  git add .
+   28  git add -all
+   29  git add --all
+   30  git add cmds.log
+   31  git add cs131/
+   32  cd cs131
+   33  mkdir Worksheet1
+   34  git status
+   35  git add --all
+   36  git commit -m "Worksheet1"
+   37  git push origin main
+   38  git init cs131
+   39  clear
+   40  git init cs131
+   41  cd .....
+   42  cd ..
+   43  cd .. 
+   44  pwd
+   45  git init cs131
+   46  cd nathanf23
+   47  pwd
+   48  git init cs131
+   49  mkdir Worksheet1
+   50  git clone https://github.com/yourname/cs131.git
+   51  del cs131
+   52  rm cs131
+   53  rm -rd cs131
+   54  pwd
+   55  ls -a
+   56  rm -all
+   57  rm cmds.log
+   58  rm -rd Worksheet1
+   59  ls -a
+   60  rm index.html
+   61  pwd
+   62  git clone https://github.com/nghiapham1026/cs131.git
+   63  mkdir Worksheet1
+   64  pwd
+   65  ls -a
+   66  rm -rf Worksheet1
+   67  cd cs131
+   68  mkdir Worksheet1
+   69  git status
+   70  wget www.github.com
+   71  git status
+   72  wget www.github.com
+   73  git status
+   74  git add -all
+   75  git add --all
+   76  git commit -m "Initial commit"
+   77  git push origin main
+   78  history > cmds.log
+   79  git add --all
+   80  git commit -m "Worksheet1"
+   81  git push origin main
+   82  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   83  ls -all
+   84  cd cs131
+   85  ls -all
+   86  mkdir Worksheet2
+   87  cd Worksheet2
+   88  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   89  grep "United States" Global\ YouTube\ Statistics.csv > US_YouTubers.csv
+   90  grep "Music" US_YouTubers.csv > US_Music_YouTubers.csv
+   91  wc -l US_Music_YouTubers.csv > counts.txt
+   92  wc -w US_Music_YouTubers.csv >> counts.txt
+   93  vi counts.txt
+   94  history > cmds.log
