@@ -1,3 +1,4 @@
+Channel, Country, Subsriber
 T-Series India 9000000
 StarPlus India 6700000
 YRF India 2000000
@@ -12,7 +13,7 @@ Shemaroo India 931000
 SriBalajiMovies India 616200
 ZEE5 India 599200
 CarryMinati India 314800
-Pok��������� India 261500
+Pokï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ India 261500
 NDTV India 234100
 Round2hell India 127300
 Anaysa India 118800
@@ -24,14 +25,14 @@ FactTechz India 84200
 wifistudy India 57100
 CKM India 52600
 Ishaan Ali 11 India 2900000
-��������������� ������ ������������������ United States 491700
-��������������� Ms Yeah United States 242600
-�������������� ���� United States 86300
-�������� ���������������������� United States 87800
-�������� �� ������������ United States 457000
-������TwinsFromRussia United States 477600
-��� Kids Diana Show United States 2900000
-��� Kids Roma Show United States 703400
+ýýýýýýýýýýýýýýý ýýýýýý ýýýýýýýýýýýýýýýýýý United States 491700
+ýýýýýýýýýýýýýýý Ms Yeah United States 242600
+ýýýýýýýýýýýýýý ýýýý United States 86300
+ýýýýýýýý ýýýýýýýýýýýýýýýýýýýýýý United States 87800
+ýýýýýýýý ýý ýýýýýýýýýýýý United States 457000
+ýýýýýýTwinsFromRussia United States 477600
+ýýý Kids Diana Show United States 2900000
+ýýý Kids Roma Show United States 703400
 5-Minute Crafts DIY United States 80000
 5-Minute Crafts FAMILY United States 109500
 5-Minute Crafts PLAY United States 423100
@@ -44,7 +45,7 @@ ABC News United States 742800
 ABP NEWS India 1100000
 ADEL et SAMI United States 107500
 AS Gaming United States 0.09
-ATHLEAN-X� United States 58000
+ATHLEAN-Xï¿½ United States 58000
 Aadishakti Films India 193800
 Aaj Tak India 1800000
 Aayu and Pihu Show India 359100
@@ -74,15 +75,15 @@ Beast Reacts United States 1100000
 Bebefinn - Nursery Rhymes & Kids Songs United States 0
 Becky G United States 412700
 Ben Azelart United States 739800
-Beyonc� United States 221800
-Beyonc�� United States 358300
+Beyoncï¿ United States 221800
+Beyoncï¿½ï¿½ United States 358300
 Billie Eilish United States 587400
 BillionSurpriseToys  - Nursery Rhymes & Cartoons United States 1100000
 Blippi - Educational Videos for Kids United States 721600
 Blockbuster Movies India 0
 Blossom United States 175500
 Bollywood Classics India 605900
-Boram Tube Vlog [��������� United States 90900
+Boram Tube Vlog [ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿ United States 90900
 Boyce Avenue United States 115100
 Brave Wilderness United States 0
 Brent Rivera United States 577800
@@ -120,7 +121,7 @@ DEV Ke Facts India 1100000
 DJ Snake United States 253200
 DLS News India 128400
 DM - Desi Melodies India 567400
-DONA �� United States 613100
+DONA ï¿½ï¿½ United States 613100
 DaFuq!?Boom! United States 9200000
 Daddy Yankee United States 822400
 Daily Dose Of Internet United States 1600000
@@ -186,9 +187,9 @@ Gordon Ramsay United Kingdom 156900
 Got Talent Global United Kingdom 345800
 Green Gold TV - Official Channel India 0
 Guava Juice United States 43600
-Gyan Gaming� India 55600
+Gyan Gamingï¿½ India 55600
 H2ODelirious United States 67100
-HUBA�� United States 1300000
+HUBAï¿½ï¿½ United States 1300000
 Happy Lives United States 0
 Harry Styles United States 0
 Harsh Beniwal India 111900
@@ -230,7 +231,7 @@ KatieAngel United States 206700
 Katy Perry United States 537000
 KatyPerryVEVO United States 355800
 Kiddiestv Hindi - Nursery Rhymes & Kids Songs India 453700
-Kids Line������� United States 647600
+Kids Lineï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ United States 647600
 Kids Play United States 103600
 Kids TV - Nursery Rhymes And Baby Songs United States 513800
 Kids TV India Hindi Nursery Rhymes India 314600
@@ -328,7 +329,7 @@ Pen Movies India 379400
 Pencilmation United States 59400
 People Vs Food United States 61400
 Peppa Pig - Official Channel United Kingdom 979700
-Peppa Pig Espa��������� United Kingdom 214400
+Peppa Pig Espaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ United Kingdom 214400
 Pinkfong Baby Shark - Kids' Songs & Stories United States 1900000
 Pitbull United States 352000
 PlayStation United States 167200
@@ -368,7 +369,7 @@ Sandra Cires Art United States 72100
 Sanjoy Das Official India 716900
 Saregama Music India 2100000
 Saturday Night Live United States 226500
-Sebasti��� United States 443100
+Sebastiï¿½ï¿½ï¿½ United States 443100
 Selena Gomez United States 463200
 SelenaGomezVEVO United States 354600
 Sesame Street United States 496700
@@ -432,7 +433,7 @@ The Royalty Family United States 640900
 The Slow Mo Guys United States 75900
 The Tonight Show Starring Jimmy Fallon United States 0
 The Vishal bhatt India 1500000
-The World Adventures ������ India 4200
+The World Adventures ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ India 4200
 TheEllenShow United States 87200
 TheOdd1sOut United States 123900
 TheRichest United States 0
@@ -466,7 +467,7 @@ Vlad and Niki ESP United States 735500
 Vlad and Niki IDN United States 533400
 Vlad and Niki PRT United States 160400
 Vlad and Niki United States 2300000
-Vlad v��� United States 976400
+Vlad vï¿½ï¿½ï United States 976400
 Vlad y Niki Show United States 368900
 Vogue United States 180400
 Volga Video India 205300
@@ -481,7 +482,7 @@ Wave Music India 928100
 Wengie United States 5300
 White Hill Music India 372700
 WiederDude United States 227600
-With Kids[����� United States 182800
+With Kids[ï¿½ï¿½ï¿½ï¿½ï United States 182800
 Wiz Khalifa United States 361800
 Wolfoo Family United States 0
 Woody & Kleiny United Kingdom 2000000
@@ -527,7 +528,7 @@ WWE Sports 96000000
 Marshmello Entertainment 56400000
 Shemaroo Entertainment 47400000
 Badabun Entertainment 46800000
-Voc��� Entertainment 44700000
+Vocï¿½ï¿½ï¿½ Entertainment 44700000
 HolaSoyGerman. Entertainment 43600000
 Rihanna Entertainment 41900000
 WorkpointOfficial Entertainment 39000000
@@ -539,7 +540,7 @@ AH Entertainment 30400000
 Zhong Entertainment 29200000
 ToyPuddingTV Entertainment 27100000
 Netflix Entertainment 26700000
-Junya.���� Entertainment 26200000
+Junya.ï¿½ï¿½ï¿½ï¿½ Entertainment 26200000
 KSI Entertainment 24100000
 DrossRotzank Entertainment 23000000
 Azhan5star Entertainment 21300000
@@ -554,7 +555,7 @@ SCTV Entertainment 19700000
 FIFA Sports 19400000
 etvteluguindia Entertainment 19400000
 Sonotek Entertainment 19200000
-���������������������� Entertainment 18800000
+ýýýýýýýýýýýýýýýýýýýýýý Entertainment 18800000
 Sidemen Entertainment 18800000
 TED-Ed Education 18800000
 CKN Entertainment 18700000
@@ -576,7 +577,7 @@ ERB Entertainment 14900000
 CrashCourse Education 14800000
 GMM25Thailand Entertainment 14500000
 Telemundo Entertainment 14500000
-��������������������� Entertainment 14400000
+ýýýýýýýýýýýýýýýýýýýýý Entertainment 14400000
 Drawblogs Entertainment 14400000
 ZEE5 Entertainment 14400000
 DangMattSmith Entertainment 14200000
@@ -588,34 +589,34 @@ infobells Education 13700000
 DALLMYD Sports 13600000
 VexTrex Entertainment 13300000
 Vogue Entertainment 13300000
-HUBA�� Entertainment 13200000
+HUBAï¿½ï¿½ Entertainment 13200000
 RedeTV Entertainment 13100000
 Davie504 Entertainment 13000000
 JesseAndMike Entertainment 13000000
-BIBO����� Entertainment 12900000
+BIBOï¿½ï¿½ï¿½ï¿½ï Entertainment 12900000
 gymvirtual Sports 12900000
 MrSuicideSheep Entertainment 12800000
-#Ref���� Entertainment 12700000
+#Refï¿½ï¿½ï¿½ï¿½ Entertainment 12700000
 NDTV Entertainment 12500000
 Parafernalha Entertainment 12500000
 colinfurze Entertainment 12500000
 Caylus Education 12400000
 SAAIHALILINTAR Entertainment 12400000
 TKOR Education 12400000
-�������������������� �������������������� Entertainment 14100000
-��������������� - Genevieve's Playhouse Education 20300000
-�������������� ���� Education 19000000
-������������ ������������ I ������ �� ���������� Entertainment 14400000
-������������ one31 Entertainment 37500000
-������������8 : Thai Ch8 Entertainment 14900000
-���������� ������������ Entertainment 14700000
-�������� ���������������������� Entertainment 16500000
-�������� �������� ���������� | toyoraljanahtv Entertainment 30200000
+ýýýýýýýýýýýýýýýýýýýý ýýýýýýýýýýýýýýýýýýýý Entertainment 14100000
+ýýýýýýýýýýýýýýý - Genevieve's Playhouse Education 20300000
+ýýýýýýýýýýýýýý ýýýý Education 19000000
+ýýýýýýýýýýýý ýýýýýýýýýýýý I ýýýýýý ýý ýýýýýýýýýý Entertainment 14400000
+ýýýýýýýýýýýý one31 Entertainment 37500000
+ýýýýýýýýýýýý8 : Thai Ch8 Entertainment 14900000
+ýýýýýýýýýý ýýýýýýýýýýýý Entertainment 14700000
+ýýýýýýýý ýýýýýýýýýýýýýýýýýýýýýý Entertainment 16500000
+ýýýýýýýý ýýýýýýýý ýýýýýýýýýý | toyoraljanahtv Entertainment 30200000
 #Refugio Mental Entertainment 14100000
 1MILLION Dance Studio Entertainment 26100000
 A2 Motivation by Arvind Arora Entertainment 15000000
 ADEL et SAMI Entertainment 13900000
-AMARINTV : ������������ Entertainment 17400000
+AMARINTV : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Entertainment 17400000
 ARY Digital HD Entertainment 43200000
 Ajay Sharma Entertainment 18100000
 Akshay Nagwadiya Entertainment 23200000
@@ -625,8 +626,8 @@ Ami Rodriguez Entertainment 20200000
 Amit Bhadana Entertainment 24300000
 And TV Entertainment 18000000
 BB Ki Vines Entertainment 26300000
-BIBO ������ Entertainment 13200000
-BabyBus - Canciones Infantiles & Videos para Ni�� Education 22900000
+BIBO ï¿½ï¿½ï¿½ï¿½ï¿½ï¿ Entertainment 13200000
+BabyBus - Canciones Infantiles & Videos para Niï¿½ï Education 22900000
 BabyBus - Cerita & Lagu Anak-anak Education 20300000
 BabyBus - Kids Songs and Cartoons Education 32800000
 Bayashi TV Entertainment 14900000
@@ -635,7 +636,7 @@ BillionSurpriseToys  - Nursery Rhymes & Cartoons Education 52200000
 Blippi - Educational Videos for Kids Education 18100000
 Blockbuster Movies Entertainment 13400000
 Bollywood Classics Entertainment 16300000
-Boram Tube Vlog [��������� Entertainment 30300000
+Boram Tube Vlog [ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿ Entertainment 30300000
 Britain's Got Talent Entertainment 19700000
 CVS 3D Rhymes & Kids Songs Education 33400000
 Caeli YT Entertainment 15600000
@@ -647,7 +648,7 @@ Collins Key Entertainment 23900000
 Colors Rishtey Entertainment 14700000
 Crazy XYZ Entertainment 27300000
 Crescendo com Luluca Entertainment 14000000
-DONA �� Entertainment 31700000
+DONA ï¿½ï¿½ Entertainment 31700000
 Daftar Populer Education 15100000
 Daily Dose Of Internet Entertainment 16100000
 Dan Rhodes Entertainment 24800000
@@ -656,7 +657,7 @@ Dave and Ava - Nursery Rhymes and Baby Songs Education 15300000
 Dear Sir Education 15800000
 Deddy Corbuzier Entertainment 20600000
 Disney Junior Entertainment 16100000
-Disney Latinoam�� Entertainment 21900000
+Disney Latinoamï¿½ï¿½ Entertainment 21900000
 Doc Tops Entertainment 14600000
 Doggy Doggy Cartoons Entertainment 16800000
 Dr. Vivek Bindra: Motivational Speaker Education 20900000
@@ -679,7 +680,7 @@ FunFun Toy Doll TV Entertainment 16500000
 GEN HALILINTAR Entertainment 18100000
 GMA  Network Entertainment 31900000
 GMA Public  Affairs Entertainment 21200000
-GMMTV OFFICIAL�� Entertainment 16400000
+GMMTV OFFICIALï¿½ï¿½ Entertainment 16400000
 Gaby and Alex Entertainment 17000000
 Genevieve's Playhouse - Learning Videos for Kids Education 34900000
 Get Movies Entertainment 47500000
@@ -714,7 +715,7 @@ Kiddiestv Hindi - Nursery Rhymes & Kids Songs Education 20200000
 Kids Play Entertainment 16200000
 Kinder Spielzeug Kanal (Kidibli) Entertainment 22200000
 Kurt Hugo Schneider Entertainment 13300000
-Kurzgesagt ������ Education 20800000
+Kurzgesagt ï¿½ï¿½ï¿½ï¿½ï¿½ï¿ Education 20800000
 La Rosa de Guadalupe Entertainment 16100000
 Lady Diana Entertainment 13500000
 Like Nastya AE Entertainment 24400000
@@ -724,11 +725,11 @@ Like Nastya PRT Entertainment 22700000
 Like Nastya Show Entertainment 42400000
 Like Nastya Stories Entertainment 14500000
 Like Nastya VNM Entertainment 17900000
-Little Angel - M���������� Entertainment 15000000
-Little Angel Espa��������� Education 18900000
+Little Angel - Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Entertainment 15000000
+Little Angel Espaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Education 18900000
 Little Angel: Nursery Rhymes & Kids Songs Education 30100000
 Little Baby Bum - Nursery Rhymes & Kids Songs Education 40900000
-Little Baby Bum en Espa�� Education 12500000
+Little Baby Bum en Espaï¿½ï Education 12500000
 Logan Paul Entertainment 23600000
 Lucas and Marcus Entertainment 31600000
 Luis Fonsi Entertainment 31400000
@@ -744,12 +745,12 @@ Maya and Mary Entertainment 23600000
 Mazhavil Manorama Entertainment 15300000
 Miley Cyrus Entertainment 18300000
 Mnet K-POP Entertainment 20500000
-MrBeast en Espa�� Entertainment 24200000
-Natan por A� Sports 12300000
+MrBeast en Espaï¿½ï Entertainment 24200000
+Natan por Aï¿ Sports 12300000
 Netflix Jr. Education 14700000
 Niana Guerrero Entertainment 15200000
 Ninja Kidz TV Entertainment 20500000
-Oyuncak Av� Entertainment 15200000
+Oyuncak Avï¿ Entertainment 15200000
 PANDA BOI Entertainment 26400000
 PDK Films Entertainment 18400000
 People Vs Food Entertainment 12500000
@@ -768,7 +769,7 @@ Robin Hood Gamer Entertainment 20100000
 Ryan Trahan Entertainment 13100000
 Ryan's World Entertainment 35200000
 SIS vs BRO Entertainment 14200000
-Sagawa /��� Entertainment 22000000
+Sagawa /ï¿½ï¿½ï¿½ Entertainment 22000000
 Salman Noman Entertainment 16700000
 Sanjoy Das Official Entertainment 13500000
 Saregama Music Entertainment 35500000
@@ -804,7 +805,7 @@ Vijay Television Entertainment 20400000
 Vlad and Niki Entertainment 98900000
 Voot Kids Entertainment 45500000
 White Hill Music Entertainment 23000000
-With Kids[����� Entertainment 16700000
+With Kids[ï¿½ï¿½ï¿½ï¿½ï Entertainment 16700000
 Younes Zarou Entertainment 16600000
 YoungBoy Never Broke Again Entertainment 12700000
 Yudist Ardhana Entertainment 14100000
@@ -813,7 +814,7 @@ Zee Bangla Entertainment 14200000
 Zee TV Entertainment 70500000
 Zee Tamil Entertainment 12500000
 Zee Telugu Entertainment 14000000
-iTownGamePlay *Terror&Diversi�� Entertainment 14900000
+iTownGamePlay *Terror&Diversiï¿½ï Entertainment 14900000
 infobells - Kannada Education 14200000
 infobells - Tamil Education 28900000
 infobells - Telugu Education 28300000
