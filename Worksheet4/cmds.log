@@ -1,0 +1,109 @@
+    1  git
+    2  git clone https://github.com/rriicc00/OED.git
+    3  cd OED
+    4  . code
+    5  cd OED
+    6  . code
+    7  cd OED
+    8  .code
+    9  . code
+   10  cd OED
+   11  . code
+   12  cd OED
+   13  . code
+   14  dmesg
+   15  cd OED
+   16  . code
+   17  cd OED
+   18  . code
+   19  cd OED
+   20  . code
+   21  sudo apt purge code
+   22  wget
+   23  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   24  mkdir Worksheet 3
+   25  mkdir Worksheet3
+   26  cd Worksheet3
+   27  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   28  awk -F, '$1=="United States" || $1=="United Kingdom" || $1=="India" {print $0}' Global\ YouTube\ Statistics.csv | sort -t, -k5,5 -nr > sorted_earnings.csv
+   29  awk -F, 'seen[$1]++ == 0' sorted_earnings.csv > top_earners.csv
+   30  awk -F, '$2=="Sports" || $2=="Education" || $2=="Entertainment" {print $0}' Global\ YouTube\ Statistics.csv | sort -t, -k6,6 -nr > sorted_subscribers.csv
+   31  awk -F, 'seen[$2]++ == 0' sorted_subscribers.csv > top_channels.csv
+   32  echo "Task 1: Top Earners" > ws3.txt
+   33  cat top_earners.csv >> ws3.txt
+   34  echo "\nTask 2: Top Channels" >> ws3.txt
+   35  cat top_channels.csv >> ws3.txt
+   36  awk -F, '$1=="United States" || $1=="United Kingdom" || $1=="India" {print $0}' Global\ YouTube\ Statistics.csv | sort -t, -k5,5 -nr > sorted_earnings.csv
+   37  awk -F, '$8=="United States" || $8=="United Kingdom" || $8=="India" {print $0}' "Global YouTube Statistics.csv" | sort -t, -k16,16 -nr > sorted_earnings.csv
+   38  awk -F, '$4=="Sports" || $4=="Education" || $4=="Entertainment" {print $0}' "Global YouTube Statistics.csv" | sort -t, -k3,3 -nr > sorted_subscribers.csv
+   39  awk -F, 'seen[$1]++ == 0' sorted_earnings.csv > top_earners.csv
+   40  awk -F, 'seen[$2]++ == 0' sorted_subscribers.csv > top_channels.csv
+   41  awk -F, '$4=="Sports" || $4=="Education" || $4=="Entertainment" {print $0}' "Global YouTube Statistics.csv" | sort -t, -k3,3 -nr > sorted_subscribers.csv
+   42  awk -F, 'seen[$2]++ == 0' sorted_subscribers.csv > top_channels.csv
+   43  awk -F, '$4=="Sports" || $4=="Education" || $4=="Entertainment" {print $0}' "Global YouTube Statistics.csv" | sort -t, -k3,3 -nr > sorted_subscribers.csv
+   44  sed 's/,//g' "Global YouTube Statistics.csv" > "Global_YouTube_Statistics_NoCommas.csv"
+   45  awk -F, '$4=="Sports" || $4=="Education" || $4=="Entertainment" {print $0}' "Global_YouTube_Statistics_NoCommas.csv" | sort -t, -k3,3 -nr > sorted_subscribers.csv
+   46  awk -F, '$8=="United States" || $8=="United Kingdom" || $8=="India" {print $0}' "Global YouTube Statistics.csv" | sort -t, -k16,16 -nr > sorted_earnings.csv
+   47  awk -F, '$4=="Sports" || $4=="Education" || $4=="Entertainment" {print $0}' "Global YouTube Statistics.csv" | sort -t, -k3,3 -nr > sorted_subscribers.csv
+   48  awk -F ',' '$5=="Sports" || $5=="Education" || $5=="Entertainment" {print $5,$3}' Global\ YouTube\ Statistics.csv | sort -k2,2nr > sorted_highest_subscribers.txt
+   49  awk -F ',' '$8=="United States" || $8=="United Kingdom" || $8=="India" {print $8,$16}' Global\ YouTube\ Statistics.csv | sort -k2,2nr > sorted_highest_earners.txt
+   50  awk -F ',' '($8=="United States" || $8=="United Kingdom" || $8=="India") {print $2, $8, $16}' Global\ YouTube\ Statistics.csv | sort -k3,3nr > sorted_highest_earners.txt
+   51  awk -F ',' '($5=="Sports" || $5=="Education" || $5=="Entertainment") {print $2, $5, $3}' Global\ YouTube\ Statistics.csv | sort -k3,3nr > sorted_highest_subscribers.txt
+   52  vi sorted_highest_earners.txt
+   53  cat sorted_highest_earners.txt sorted_highest_subscribers.txt > ws3.txt
+   54  mv ws3.txt cs131/Worksheet3/
+   55  history > cmds.log
+   56  git add .
+   57  git commit -m "Worksheet3"
+   58  echo $SHELL
+   59  clear
+   60  mkdir Assignment1
+   61  cd Assignment1
+   62  echo $SHELL
+   63  echo $HOME
+   64  id
+   65  mkdir myDir
+   66  chmod u-w myDir
+   67  mkdir myDir2 myDir3
+   68  touch myDir2/myFile.txt
+   69  mv myDir2/myFile.txt myDir3/
+   70  free -m
+   71  cat /etc/os-release
+   72  ls -l /etc/os-release
+   73  git commit -m "Assignment1"
+   74  mkdir Worksheet4
+   75  cd Worksheet4
+   76  echo "alias l='ls -ltr'" >> ~/.bashrc
+   77  echo "alias w='ls -l | wc'" >> ~/.bashrc
+   78  source ~/.bashrc
+   79  l
+   80  w
+   81  mkdir -p Subscribers
+   82  cd Subscribers
+   83  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+   84  touch United_States.txt
+   85  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+   86  grep "United States" youtubers_data.csv | cut -d',' -f3 > United_States.txt
+   87  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   88  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+   89  cd .
+   90  cd ..
+   91  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+   92  grep "United States" youtubers_data.csv | cut -d',' -f3 > /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Worksheet4/Subscribers/United_States.txt
+   93  cd /path/to/directory/containing/youtubers_data.csv
+   94  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+   95  ls
+   96  ls -all
+   97  cd Subscribers
+   98  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+   99  grep "United States" /path/to/youtubers_data.csv | cut -d',' -f3 > United_States.txt
+  100  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+  101  cd ..
+  102  grep "United States" youtubers_data.csv | cut -d',' -f3 > Worksheet4/Subscribers/United_States.txt
+  103  pwd
+  104  ls
+  105  grep "United States" youtubers_data.csv | cut -d',' -f3 > Subscribers/United_States.txt
+  106  grep "India" youtubers_data.csv | cut -d',' -f3 > Subscribers/India.txt
+  107  awk '{ sum += $1 } END { print sum/NR }' Subscribers/United_States.txt > ws4.txt
+  108  awk '{ sum += $1 } END { print sum/NR }' Subscribers/India.txt >> ws4.txt
+  109  history > cmds.log

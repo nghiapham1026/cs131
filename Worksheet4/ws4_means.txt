@@ -1,0 +1,4 @@
+United States Average:
+2.30897e+07
+India Average:
+25596000
