@@ -1,0 +1,44 @@
+Script started on 2023-10-08 15:25:22-0700
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mkdir ~/Assignment1
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ cd ~/Assignment1
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ echo $SHELL
+/bin/bash
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ echo $HOME
+/home/nathan1026
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ id
+uid=1000(nathan1026) gid=1001(nathan1026) groups=1001(nathan1026),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),114(netdev),1000(docker)
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ mkdir ~/Assignment1/myDir
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ chmod u-w ~/Assignment1/myDir
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ mkdir ~/Assignment1/myDir2
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ mkdir ~/Assignment1/myDir3
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ touch ~/Assignment1/myDir2/myFile.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ mv ~/Assignment1/myDir2/myFile.txt ~/Assignment1/myDir3/
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           3607          97        3471           0          38        3410
+Swap:          1024           0        1024
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ cat /etc/os-release
+NAME="Ubuntu"
+VERSION="18.04.6 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.6 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ ls -l /etc/os-release
+lrwxrwxrwx 1 root root 21 Sep  6  2021 [0m[01;36m/etc/os-release[0m -> ../usr/lib/os-release
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ echo "1) Commands to make directory and change into it:" > Assignment1.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1@0[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho "1) Commands to make directory and change into it:" > Assignment1.txt
+o "mkdir ~/As]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ echo "mkdir ~/Assignment1" >> Assignment1.txt
+cd ~/Assignment1" >>]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ echo "cd ~/Assignment1" >> Assignment1.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: ~/Assignment1[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m~/Assignment1[00m$ exit
+exit
+
+Script done on 2023-10-08 15:29:06-0700
