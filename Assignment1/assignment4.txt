@@ -1,0 +1,22 @@
+mkdir ~/Assignment1
+cd ~/Assignment1
+echo $SHELL
+This will output the path to your current shell.
+echo $HOME
+This will output the path to the home directory.
+To find your UID and the groups you belong to, you can use: id
+mkdir myDir
+chmod u-w myDir
+cd into the directory: Yes, you can cd into it.
+ls it: Yes, you can ls it.
+ls -l it: Yes, you can ls -l it.
+create files under it: No, you can't create files under it without write permission.
+mkdir myDir2 myDir3
+touch myDir2/myFile.txt
+mv myDir2/myFile.txt myDir3/
+free -m
+This will display the amount of memory in mebibytes (MB).
+cat /etc/os-release
+The operating system version is usually stored in /etc/os-release
+ls -l /etc/os-release
+This will display the permissions given to all users for the file.
