@@ -1,0 +1,14 @@
+### Question 1
+find /etc -type f > one.txt 2> two.txt
+cat one.txt
+cat two.txt
+\n### Question 2
+cut -d',' -f20,21 Global_YouTube_Statistics.csv | sort | uniq -c | sort -nr | head -3
+\n### Question 3
+ps -u nathan1026
+\n### Question 4
+\n### Question 5
+ps -e | grep [i]nit
+ps -e | grep [s]ystemd
+\n### Question 6
+ps aux

@@ -1,0 +1,27 @@
+Script started on 2023-10-12 15:59:09-0700
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ ps -u [YourUsername][K[K[K[K[K[K[K[K[K[K[K[K[K[Knathan1026
+  PID TTY          TIME CMD
+    9 pts/0    00:00:00 bash
+   43 pts/0    00:00:00 script
+   44 pts/1    00:00:00 bash
+  147 pts/2    00:00:00 bash
+  170 pts/1    00:00:00 vi
+  174 pts/2    00:00:00 script
+  175 pts/3    00:00:00 bash
+  192 pts/3    00:00:00 ps
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ ps -u nathan1-[K026
+  PID TTY          TIME CMD
+    9 pts/0    00:00:00 bash
+   43 pts/0    00:00:00 script
+   44 pts/1    00:00:00 bash
+  147 pts/2    00:00:00 bash
+  174 pts/2    00:00:00 script
+  175 pts/3    00:00:00 bash
+  205 pts/3    00:00:00 ps
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ exit
+exit
+
+Script done on 2023-10-12 16:01:09-0700
