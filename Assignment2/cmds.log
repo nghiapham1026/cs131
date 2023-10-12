@@ -1,14 +1,27 @@
 ### Question 1
 find /etc -type f > one.txt 2> two.txt
+The command find /etc -type f > one.txt 2> two.txt is trying to find all files (not directories) under the /etc directory and its subdirectories. The results (file paths) will be stored in one.txt. If there are any errors (like permission denied), they will be stored in two.txt.
 cat one.txt
 cat two.txt
+one.txt will contain paths to all files found under /etc, while two.txt will contain error messages encountered during the search, typically these are "Permission denied" errors for files that the user running the command doesn’t have access to.
 \n### Question 2
 cut -d',' -f20,21 Global_YouTube_Statistics.csv | sort | uniq -c | sort -nr | head -3
+cut -d',' -f20,21: Extracts the 20th and 21st fields (created_year and created_month).
+sort: Sorts the extracted data.
+uniq -c: Counts the unique occurrences.
+sort -nr: Sorts the counted data in reverse numerical order.
+head -3: Displays the top 3 results.
 \n### Question 3
 ps -u nathan1026
 \n### Question 4
+Opened file.txt with vi and kept it open.
+To find processes, use the command from Q3. The output will show a vi process running.
+Quit vi using :q!.
+Running Q3 again, the vi process is no longer listed because vi exited.
 \n### Question 5
+The init process is the first process that starts on Linux upon boot and is the ancestor of all other processes.
 ps -e | grep [i]nit
 ps -e | grep [s]ystemd
 \n### Question 6
 ps aux
+This command provides a snapshot of current activities in the system, including process status, CPU usage, and memory usage.
