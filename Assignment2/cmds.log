@@ -24,4 +24,4 @@ ps -e | grep [i]nit
 ps -e | grep [s]ystemd
 \n### Question 6
 ps aux
-This command provides a snapshot of current activities in the system, including process status, CPU usage, and memory usage.
+ps aux is a command in Unix-like operating systems that prints information about the current processes. a shows processes for all users, u displays the process's user/owner, and x also shows processes not attached to a terminal. This command provides a snapshot of current activities in the system, including process status, CPU usage, and memory usage.
