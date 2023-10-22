@@ -1,0 +1,78 @@
+Script started on 2023-10-21 22:35:19-0700
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mkdir -p "Workhsheet 5/United States"
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ cd W[K"WOs[K[Kro[K[Korkhsheet 5"
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Workhsheet 5[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Workhsheet 5[00m$ cd "Wos[Krk[K[K[K[K[K[K[K[Kcd ..
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ while IFS=, read -r rank youtuber subscribers video_views category title uploads  country abbreviation channel_type video_views_rank country_rank channel_type_rank video_views_for_the_last_30_days lowest_monthly_earnings highest_monthly_earnnings lowest_yearly_earnings highest_yearly_earnings subscribers_for_last_30_days created_year created_month created_date gross_tertiary_education_enrollment poopulation unemployment_rate urban_population latitude longitude
+> do
+>     if [[ "$country" == "United States" ]]; then
+>         echo "$rank,$youtuber,$subscribers,$video_views,$category,$title,$uploads,$country,$abbreviation,$channel_type,$video_views_rank,$country_rank,$chann el_type_rank,$video_views_for_the_last_30_days,$lowest_monthly_earnings,$highest_monthly_earnings,$lowest_yearly_earnings,$highest_yearly_earnings,$subscribers__for_last_30_days,$created_year,$created_month,$created_date,$gross_tertiary_education_enrollment,$population,$unemployment_rate,$urban_population,$latitude,$loongitude" >> "Workhsheet 5/United States/${category}.txt"
+   >     fi
+ < "G> done < "Global YouTube Statistics.csv"
+bash: Global YouTube Statistics.csv: No such file or directory
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouuTube%20Statistics.csv
+--2023-10-21 22:36:06--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+
+Global YouTube Statistics.csv             0%[                                                                               ]       0  --.-KB/s               Global YouTube Statistics.csv           100%[==============================================================================>] 195.58K  --.-KB/s    in 0.04s   
+
+2023-10-21 22:36:06 (4.27 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ while IFS=, read -r rank youtuber subscribers video_views category title uploads  country abbreviation channel_type video_views_rank country_rank channel_type_rank video_views_for_the_last_30_days lowest_monthly_earnings highest_monthly_earnnings lowest_yearly_earnings highest_yearly_earnings subscribers_for_last_30_days created_year created_month created_date gross_tertiary_education_enrollment poopulation unemployment_rate urban_population latitude longitude
+> do
+>     if [[ "$country" == "United States" ]]; then
+>         echo "$rank,$youtuber,$subscribers,$video_views,$category,$title,$uploads,$country,$abbreviation,$channel_type,$video_views_rank,$country_rank,$channeel_type_rank,$video_views_for_the_last_30_days,$lowest_monthly_earnings,$highest_monthly_earnings,$lowest_yearly_earnings,$highest_yearly_earnings,$subscribers__for_last_30_days,$created_year,$created_month,$created_date,$gross_tertiary_education_enrollment,$population,$unemployment_rate,$urban_population,$latitude,$loongitude" >> "Workhsheet 5/United States/${category}.txt"
+>     fi
+> done < "Global YouTube Statistics.csv"
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Music:" $(wc -l "Workhsheet 5/United States/Music.txt" | awk '{print $1}')  > ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Entertainment:" $(wc -l "Workhsheet 5/United States/Entertainment.txt" | awwk '{print $1}') >> ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Gaming:" $(wc -l "Workhsheet 5/United States/Gaming.txt" | awk '{print $1}'') >> ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Comedy:" $(wc -l "Workhsheet 5/United States/Comedy.txt" | awk '{print $1}'') >> ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mv :[K"Global Youtube Statisticd[Ks.csv" WOrk[K[K[Korkhsheet5/
+mv: cannot move 'Global Youtube Statistics.csv' to 'Workhsheet5/': Not a directory
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mv "Global Youtube Statistics.csv" Workhsheet5/[K
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mv ws5.txt Workhsheet5[K [K5
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mkdir[K[K[K[K[Kcd [K[K[Kmkdir WOrk[K[K[Korks[Khsheet5
+mkdir: cannot create directory ‘Workhsheet5’: File exists
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ m[Kcd Works[Khsheet5
+bash: cd: Workhsheet5: Not a directory
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ ls -a[Kl
+total 4
+drwxrwxrwx 1 nathan1026 nathan1026 4096 Oct  8 22:22  [0m[34;42mAssignment1[0m
+drwxrwxrwx 1 nathan1026 nathan1026 4096 Oct 12 16:03  [34;42mAssignment2[0m
+drwxrwxrwx 1 nathan1026 nathan1026 4096 Oct 21 22:35 [34;42m'Workhsheet 5'[0m
+-rwxrwxrwx 1 nathan1026 nathan1026   50 Oct 21 22:36  [01;32mWorkhsheet5[0m
+drwxrwxrwx 1 nathan1026 nathan1026 4096 Sep 15 17:20 [34;42m'Worksheet 1'[0m
+drwxrwxrwx 1 nathan1026 nathan1026 4096 Sep 15 17:20  [34;42mWorksheet2[0m
+drwxrwxrwx 1 nathan1026 nathan1026 4096 Sep 15 21:03  [34;42mWorksheet3[0m
+drwxrwxrwx 1 nathan1026 nathan1026 4096 Sep 28 23:38  [34;42mWorksheet4[0m
+-rwxrwxrwx 1 nathan1026 nathan1026 4096 Oct 21 22:36  [01;32mtypescript[0m
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouuTube%20Statistics.csv
+--2023-10-21 22:41:41--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+
+Global YouTube Statistics.csv             0%[                                                                               ]       0  --.-KB/s               Global YouTube Statistics.csv           100%[==============================================================================>] 195.58K  --.-KB/s    in 0.08s   
+
+2023-10-21 22:41:41 (2.44 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Music:" $(wc -l "Workhsheet 5/United States/Music.txt" | awk '{print $1}')  > ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Entertainment:" $(wc -l "Workhsheet 5/United States/Entertainment.txt" | awwk '{print $1}') >> ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Gaming:" $(wc -l "Workhsheet 5/United States/Gaming.txt" | awk '{print $1}'') >> ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ echo "Comedy:" $(wc -l "Workhsheet 5/United States/Comedy.txt" | awk '{print $1}'') >> ws5.txt
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mv types[K[K[K[K[KWorkhsheet5 "Work[Kksheet 5"
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ mv Worj[K[K[K[Kws5.txt "/[K[K/Workhsheet 5
+mv: target '5' is not a directory
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131[00m$ exit
+exit
+
+Script done on 2023-10-21 22:43:52-0700
