@@ -10,7 +10,7 @@ Command(s) used to solve:
 Output of Command:
 1. [Number of lines in last.fake before filtering]
 2. [No output, the command simply creates/overwrites the file lastf23.fake]
-3. [Number of lines in lastf23.fake after filtering]
+3. 239 lastf23.fake
 
 Task 2:
 
@@ -18,51 +18,103 @@ Command(s) used to solve:
 1. grep "Sun" lastf23.fake | awk '{print $1}' | sort | uniq
 
 Output of Command:
-The list of people who worked on Sunday are:
-Tigressf23
-Pof23
-Shifu23
-Kudos to these people for putting in the work
+jewonf23
+saniaf23
+tienf23
 
 Task 3:
 
 Command(s) used to solve:
-1. awk '($4 >= "11:00" && $4 <= "23:59") || ($4 >= "00:00" && $4 <= "04:00")' lastf23.fake | awk '{print $1}' | sort | uniq
+1. awk '$7 >= "23:00" || $7 <= "04:00"' lastf23.fake | awk '{print $1}' | sort | uniq
 
 Output of Command:
-Night Owls List:
-Tigressf23
-Pof23
-Oogway23
-Night Owls are dope. Please ensure you get enough sleep though.
+aaronf23
+anasf23
+divijf23
+hamzaf23
+hof23
+jamesf23
+junf23
+kobef23
+maximf23
+rahulf23
+rikkif23
+saniaf23
+thif23
+tienf23
 
 Task 4:
 
 Command(s) used to solve:
-1. awk '($4 >= "05:00" && $4 <= "09:00")' lastf23.fake | awk '{print $1}' | sort | uniq
+1. awk '$7 >= "05:00" && $7 <= "09:00"' lastf23.fake | awk '{print $1}' | sort | uniq
 
 Output of Command:
-Early Birds List:
-Tigressf23
-Pof23
-Oogway23
-Early Birds are dope. Please ensure you get enough sleep though.
+hamzaf23
+hof23
+saniaf23
+thif23
+tienf23
 
 Task 5:
 
 Command(s) used to solve:
-1. awk '/^t/' lastf23.fake | awk '{print $1}'
+1. awk '/^t/ {print $1}' lastf23.fake
 
 Output of Command:
 [List of usernames starting with "t"]
+thif23
+thif23
+thif23
+tienf23
+tienf23
+tienf23
+tienf23
+tienf23
+thif23
+tienf23
+tienf23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+tienf23
+tienf23
+tienf23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+tienf23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+thif23
+tienf23
+tienf23
+tienf23
+tienf23
 
 Task 6:
 
 Command(s) used to solve:
-1. awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+1. awk -F: '/^a/ && $3 % 2 == 0 {print $1}' passwd.fake
 
 Output of Command:
 [List of usernames starting with 'a' and UID divisible by 2]
+Nothing in this case
 
 Task 7:
 
@@ -71,3 +123,4 @@ Command(s) used to solve:
 
 Output of Command:
 [List of distinct lines after deleting all letters, digits, and spaces]
+{"":{"":,"":{"":{"":[{"":".","":"/.","":""},{"":".","":"/.","":""},{"":".","":"/.","":""}],"":},"":{"":[{"":"","":"","":""},{"":".","":".","":""},{"":".","":".","":""},{"":".","":".","":""},{"":"-.","":"-.","":""}],"":}},"":.,"":[],"":,"":{"":,"":"","":"","":"","":,"":,"":,"":"--::.","":"://..//?=","":,"":,"":},"":,"":,"":{"":"","":":.","":,"":"","":""},"":"/.","":,"":{"":[":::::/://",":::::/://",":::::/://","::::://://",":::::///://",":::::/://",":::::/://",":::::/://",":::::///://",":::::/://","::::://://","::::://://",":::::/://",":::::/://","-:::::/://","-:::::/://","::::://://",":::::/://",":::::///://","::::://://",":::::///://",":::::///://","-:::::/://","-::::-:/://",":::::/://",":::::///://","::::-:///://",":::::/://","::::://://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://","-:::::///-://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///
