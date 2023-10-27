@@ -1,0 +1,73 @@
+Assignment 3 Report:
+
+Task 1:
+
+Command(s) used to solve: 
+1. wc -l last.fake
+2. grep "f23" last.fake > lastf23.fake
+3. wc -l lastf23.fake
+
+Output of Command:
+1. [Number of lines in last.fake before filtering]
+2. [No output, the command simply creates/overwrites the file lastf23.fake]
+3. [Number of lines in lastf23.fake after filtering]
+
+Task 2:
+
+Command(s) used to solve:
+1. grep "Sun" lastf23.fake | awk '{print $1}' | sort | uniq
+
+Output of Command:
+The list of people who worked on Sunday are:
+Tigressf23
+Pof23
+Shifu23
+Kudos to these people for putting in the work
+
+Task 3:
+
+Command(s) used to solve:
+1. awk '($4 >= "11:00" && $4 <= "23:59") || ($4 >= "00:00" && $4 <= "04:00")' lastf23.fake | awk '{print $1}' | sort | uniq
+
+Output of Command:
+Night Owls List:
+Tigressf23
+Pof23
+Oogway23
+Night Owls are dope. Please ensure you get enough sleep though.
+
+Task 4:
+
+Command(s) used to solve:
+1. awk '($4 >= "05:00" && $4 <= "09:00")' lastf23.fake | awk '{print $1}' | sort | uniq
+
+Output of Command:
+Early Birds List:
+Tigressf23
+Pof23
+Oogway23
+Early Birds are dope. Please ensure you get enough sleep though.
+
+Task 5:
+
+Command(s) used to solve:
+1. awk '/^t/' lastf23.fake | awk '{print $1}'
+
+Output of Command:
+[List of usernames starting with "t"]
+
+Task 6:
+
+Command(s) used to solve:
+1. awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+
+Output of Command:
+[List of usernames starting with 'a' and UID divisible by 2]
+
+Task 7:
+
+Command(s) used to solve:
+1. sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+
+Output of Command:
+[List of distinct lines after deleting all letters, digits, and spaces]
