@@ -8,7 +8,7 @@ Command(s) used to solve:
 3. wc -l lastf23.fake
 
 Output of Command:
-1. [Number of lines in last.fake before filtering]
+1. 2162 last.fake
 2. [No output, the command simply creates/overwrites the file lastf23.fake]
 3. 239 lastf23.fake
 
