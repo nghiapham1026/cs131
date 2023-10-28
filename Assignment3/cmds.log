@@ -15,19 +15,23 @@ Output of Command:
 Task 2:
 
 Command(s) used to solve:
-1. grep "Sun" lastf23.fake | awk '{print $1}' | sort | uniq
+1. grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on Sunday are:"} !seen[$1]++ {names[n++] = $1} END {asort(names); for(i=1; i<=n; i++) print names[i]; print "Kudos to these people for putting in the work"}'
 
 Output of Command:
+The list of people who worked on Sunday are:
 jewonf23
 saniaf23
 tienf23
+Kudos to these people for putting in the work
 
 Task 3:
 
 Command(s) used to solve:
-1. awk '$7 >= "23:00" || $7 <= "04:00"' lastf23.fake | awk '{print $1}' | sort | uniq
+1. awk '$7 >= "23:00" || $7 <= "04:00"' lastf23.fake | awk 'BEGIN {print "Night Owls List:"} !seen[$1]++ {names[n++] = $1} END {asort(names); for(i=1; i<=n; i++) print names[i]; print "Night Owls are dope. Please ensure you get enough sleep though."}'
+
 
 Output of Command:
+Night Owls List:
 aaronf23
 anasf23
 divijf23
@@ -42,18 +46,21 @@ rikkif23
 saniaf23
 thif23
 tienf23
+Night Owls are dope. Please ensure you get enough sleep though.
 
 Task 4:
 
 Command(s) used to solve:
-1. awk '$7 >= "05:00" && $7 <= "09:00"' lastf23.fake | awk '{print $1}' | sort | uniq
+1. awk '$7 >= "05:00" && $7 <= "09:00"' lastf23.fake | awk 'BEGIN {print "Early Birds List:"} !seen[$1]++ {names[n++] = $1} END {asort(names); for(i=1; i<=n; i++) print names[i]; print "Early Birds are dope. Please ensure you get enough sleep though."}'
 
 Output of Command:
+Early Birds List:
 hamzaf23
 hof23
 saniaf23
 thif23
 tienf23
+Early Birds are dope. Please ensure you get enough sleep though.
 
 Task 5:
 
