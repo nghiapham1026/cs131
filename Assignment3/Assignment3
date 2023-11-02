@@ -1,28 +1,20 @@
-Script started on 2023-10-27 19:32:27+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="159" LINES="21"]
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131 [0;36m([1;31mmain[0;36m) [0m$ mkdir Assignment3
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131 [0;36m([1;31mmain[0;36m) [0m$ cd Assihn[K[Kgn,ent[K[K[K[Kment3
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
---2023-10-27 19:32:44--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 157765 (154K) [text/plain]
-Saving to: ‘last.fake’
+Script started on 2023-11-01 23:24:00-0700
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
 
-last.fake                                 0%[                                                                               ]       0  --.-KB/s               last.fake                               100%[==============================================================================>] 154.07K  --.-KB/s    in 0.02s   
-
-2023-10-27 19:32:45 (8.92 MB/s) - ‘last.fake’ saved [157765/157765]
-
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ wc -l last.fake
-2162 last.fake
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ grep 'f23' last.fake > lastf23.fake
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ wc -l lastf23.fake
-239 lastf23.fake
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ grep 'Sun' lastf23.fake | awk '{print $1}' | sort | uniq
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ awk 'END {print NR}' last.fake
+2162
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ grep "f23" last.fake > lastf23.fake
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ awk 'END {print NR}' last.fake[K[K[K[K[Kf23.fake
+239
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on SSunday are:"} !seen[$1]++ {names[n++] = $1} END {asort(names); for(i=1; i<=n; i++) print names[i]; print "Kudos to these people for putting in the work"}'
+The list of people who worked on Sunday are:
 jewonf23
 saniaf23
 tienf23
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ awk '$7 >= "23:00" || $7 <= "04:00"' lastf23.fake | awk '{print $1}' | sort | uniq
+Kudos to these people for putting in the work
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ awk '$7 >= "23:00" || $7 <= "04:00"' lastf23.fake | awk 'BEGIN {print "Night Owwls List:"} !seen[$1]++ {names[n++] = $1} END {asort(names); for(i=1; i<=n; i++) print names[i]; print "Night Owls are dope. Please ensure you get enough sleep though."}''
+Night Owls List:
 aaronf23
 anasf23
 divijf23
@@ -37,73 +29,37 @@ rikkif23
 saniaf23
 thif23
 tienf23
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ awk '$7 >= "05:00" && $7 <= "09:00"' lastf23.fake | awk '{print $1}' | sort | uniq
+Night Owls are dope. Please ensure you get enough sleep though.
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ awk '$7 >= "05:00" && $7 <= "09:00"' lastf23.fake | awk 'BEGIN {print "Early Biirds List:"} !seen[$1]++ {names[n++] = $1} END {asort(names); for(i=1; i<=n; i++) print names[i]; print "Early Birds are dope. Please ensure you get enough sleep though. "}'
+Early Birds List:
 hamzaf23
 hof23
 saniaf23
 thif23
 tienf23
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ awk '/^t/ {print $1}' lastf23.fake
-thif23
-thif23
-thif23
-tienf23
-tienf23
-tienf23
-tienf23
-tienf23
+Early Birds are dope. Please ensure you get enough sleep though.
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ awk '/^t/ && !seen[$1]++ {print $1}' lastf23.fake
 thif23
 tienf23
-tienf23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-tienf23
-tienf23
-tienf23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-tienf23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-thif23
-tienf23
-tienf23
-tienf23
-tienf23
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake
---2023-10-27 19:33:45--  https://github.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake
-Resolving github.com (github.com)... 140.82.114.4
-Connecting to github.com (github.com)|140.82.114.4|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 15324 (15K) [text/plain]
-Saving to: ‘passwd.fake’
-
-passwd.fake                               0%[                                                                               ]       0  --.-KB/s               passwd.fake                             100%[==============================================================================>]  14.96K  --.-KB/s    in 0.06s   
-
-2023-10-27 19:33:45 (260 KB/s) - ‘passwd.fake’ saved [15324/15324]
-
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ awk -F: '/^a/ && $3 % 2 == 0 {print $1}' passwd.fake
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
-{"":{"":,"":{"":{"":[{"":".","":"/.","":""},{"":".","":"/.","":""},{"":".","":"/.","":""}],"":},"":{"":[{"":"","":"","":""},{"":".","":".","":""},{"":".","":".","":""},{"":".","":".","":""},{"":"-.","":"-.","":""}],"":}},"":.,"":[],"":,"":{"":,"":"","":"","":"","":,"":,"":,"":"--::.","":"://..//?=","":,"":,"":},"":,"":,"":{"":"","":":.","":,"":"","":""},"":"/.","":,"":{"":[":::::/://",":::::/://",":::::/://","::::://://",":::::///://",":::::/://",":::::/://",":::::/://",":::::///://",":::::/://","::::://://","::::://://",":::::/://",":::::/://","-:::::/://","-:::::/://","::::://://",":::::/://",":::::///://","::::://://",":::::///://",":::::///://","-:::::/://","-::::-:/://",":::::/://",":::::///://","::::-:///://",":::::/://","::::://://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://","-:::::///-://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///__/://",":::::///://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://",":::::///_/://","::::://://"],"":[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]],"":,"":,"":{"":,"":,"":"////","":"//-/__","":,"":"////","":"////_","":,"":},"":".","":"://.//////.?=","":{"":".","":{"":""},"":{"":""},"":"://..","":,"":,"":"","":"/?_=%%%.%%%%%%.","":,"":,"":,"":{"":"","":""},"":""},"":,"":,"":,"":,"":"://..//-----","":,"":,"":,"":,"":,"":,"":"////","":"////","":{"":,"":,"":"//////.","":,"":,"":,"":},"":{"":"//-/___","":"//-/___","":"////?=","":,"":},"":"://.//////.","":,"":,"":,"":,"":,"":{"":,"":,"":"","":"","":,"":"://..///----/----/--","":,"":},"":,"":,"":,"":{"":,"":,"":[]}},"":,"":,"_":{"///":{"":""},"//":{"":"-"}}},"":"//.·/"}
-[0;32m@nghiapham1026 [0m➜ [1;34m/workspaces/cs131/Assignment3 [0;36m([1;31mmain[0;36m) [0m$ exit[K[K[K[Kexit
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ awk -F: '/^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+angie23fa
+areebah23fa
+apple23fa
+ajay23fa
+alan23fa
+amreenf23
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+-::::-:/://
+-:::::///-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+::::://://
+:::::/://
+]0;nathan1026@LAPTOP-NCPS0E0P: /mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[01;32mnathan1026@LAPTOP-NCPS0E0P[00m:[01;34m/mnt/c/Users/nghia/OneDrive/Documents/GitHub/cs131/Assignment3[00m$ exit
 exit
 
-Script done on 2023-10-27 19:36:45+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2023-11-01 23:25:30-0700
