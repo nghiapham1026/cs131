@@ -29,3 +29,6 @@ END {
   print "Revenue Change Volatility: " volatility_revenue;
   print "Profit Change Volatility: " volatility_profit;
 }' "./data/Fortune 1000 Companies by Revenue.csv"
+
+#sed -i -e 's/\r$//' ./scripts/volatility.sh
+#./scripts/volatility.sh

@@ -10,3 +10,6 @@ awk -F, 'NR > 1 {
   print "Average Revenue Percent Change: " revenue_change_sum/count "%";
   print "Average Profit Percent Change: " profit_change_sum/count "%";
 }' "./data/Fortune 1000 Companies by Revenue.csv"
+
+#sed -i -e 's/\r$//' ./scripts/growth_rate.sh
+#./scripts/growth_rate.sh

@@ -14,3 +14,6 @@ awk -F, 'NR > 1 {
     print $2 " Profit per Employee: " profit_per_employee;
   }
 }' "./data/Fortune 1000 Companies by Revenue.csv"
+
+#sed -i -e 's/\r$//' ./scripts/employees.sh
+#./scripts/employees.sh

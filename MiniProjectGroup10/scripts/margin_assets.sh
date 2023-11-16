@@ -14,3 +14,6 @@ awk -F, 'NR > 1 {
     print $2 " Asset Turnover: " asset_turnover;
   }
 }' "./data/Fortune 1000 Companies by Revenue.csv"
+
+#sed -i -e 's/\r$//' ./scripts/margin_assets.sh
+#./scripts/margin_assets.sh
