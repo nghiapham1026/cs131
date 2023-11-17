@@ -12,4 +12,4 @@ awk -F, 'NR==2 {
   }
 }' "./data/Fortune 1000 Companies by Revenue.csv"
 
-#./scripts/data_types.sh
+#./scripts/metadata/data_types.sh

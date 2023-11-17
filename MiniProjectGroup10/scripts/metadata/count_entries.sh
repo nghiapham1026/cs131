@@ -5,4 +5,4 @@ echo "Total entries: $((entries - 1))"
 
 #Run these two commands
 #chmod +x scripts/count_entries.sh
-#./scripts/count_entries.sh
+#./scripts/metadata/count_entries.sh

@@ -13,4 +13,4 @@ END {
   }
 }' "./data/Fortune 1000 Companies by Revenue.csv"
 
-#./scripts/missing_values.sh
+#./scripts/metadata/missing_values.sh

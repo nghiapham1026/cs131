@@ -6,4 +6,4 @@ for i in $(seq 1 $(head -1 "./data/Fortune 1000 Companies by Revenue.csv" | grep
   cut -d, -f$i "./data/Fortune 1000 Companies by Revenue.csv" | sort | uniq | wc -l
 done
 
-#./scripts/unique_values.sh
+#./scripts/metadata/unique_values.sh
